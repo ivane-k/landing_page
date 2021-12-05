@@ -1,0 +1,181 @@
+/* 
+    color:
+    dark gray: 222629
+    mid gray: 474B4F
+    light gray: 6B6E70
+    dark green: 61892F
+    light green: 86C232
+*/
+
+
+/* general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: #D3D3D3;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a:link, a:hover, a:active, a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+/* nav */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222629;
+    padding: 30px 0;
+}
+
+nav h3 {
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+}
+
+/* main */
+.main-section {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #222629;
+    gap: 20px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.hero-secondary {
+    font-size: 18px;
+}
+
+#placeholder-img {
+    width: 440px;
+    height: 260px;
+}
+
+.hero {
+    width: 440px;
+}
+
+.hero-button {
+    color: white;
+    background-color: #86C232;
+    border: none;
+    border-radius: 10%;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* info */
+.flower {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.info-wrapper p, .info-section h1 {
+    color: #222629;
+}
+
+.info-section h1 {
+    font-weight: extra-bold;
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+.info-wrapper div {
+    width: 200px;
+}
+
+.info-section {
+    margin: 50px 0;
+    text-align: center;
+}
+
+/* quote */
+.quote-section {
+    height: 400px;
+    padding: 100px 0;
+    background-color: #474B4F;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    display: inline-block;
+    width: 50%;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.author {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+
+/* action */
+.action-section {
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-call {
+    display: flex;
+    background-color: #61892F;
+    height: 100px;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 2%;
+}
+
+.action-call h3 {
+    font-weight: bold;
+}
+
+.call-button {
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 10%;
+    color: white;
+    background-color: #61892F;
+}
+
+/* footer */
+footer {
+    background-color: #222629;
+    text-align: center;
+    padding: 30px;
+}
